@@ -1,0 +1,26 @@
+{
+  "name": "foot-traffic-signal-engine",
+  "version": "1.0.0",
+  "description": "MCP tool that delivers AI-powered foot traffic site intelligence from open data sources — unbundling Placer.ai at $0.10/query",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "foot-traffic",
+    "location-intelligence",
+    "openstreetmap",
+    "site-selection"
+  ],
+  "license": "MIT"
+}
